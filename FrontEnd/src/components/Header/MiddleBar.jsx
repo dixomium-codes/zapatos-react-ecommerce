@@ -10,7 +10,7 @@ import Cart from "../../assets/icons/Cart";
 
 export default function MiddleBar() {
     return (
-        <header className="flex justify-between items-center py-3 px-6 bg-white shadow-md">
+        <header className="flex justify-between items-center py-3 px-6 bg-white ">
             <div className="flex items-center gap-6 w-1/2">
                 <Logo />
                 {/* Search Bar */}
@@ -27,17 +27,17 @@ export default function MiddleBar() {
 
             {/* Navigation List */}
             <ul className="flex items-center text-gray-700 text-sm font-medium">
-                <li className="flex items-center gap-2 px-4 whitespace-nowrap"><Phone/><span>(804) 6623-9999</span></li>
+                <li className="flex items-center gap-2 px-4 whitespace-nowrap"><Phone /><span>(804) 6623-9999</span></li>
                 <span className="text-gray-400">|</span>
-                <li className="flex items-center gap-2 px-4"><MailBox/><span>supportoursmallbusiness@g.com</span></li>
+                <li className="flex items-center gap-2 px-4"><MailBox /><span>supportoursmallbusiness@g.com</span></li>
                 <span className="text-gray-400">|</span>
-                <li className="flex items-center gap-2 px-4"><Info/><span>Info</span><DownArrow/></li>
+                <li className="flex items-center gap-2 px-4"><Info /><span>Info</span><DownArrow /></li>
                 <span className="text-gray-400 ">|</span>
-                <li className="flex items-center gap-2 px-4"><Account/><DownArrow/></li>
+                <li className="flex items-center gap-2 px-4"><Account /><DownArrow /></li>
                 <span className="text-gray-400">|</span>
-                <li className="flex items-center px-4"><Wishlist/></li>
+                <li className="flex items-center px-4"><Wishlist /></li>
                 <span className="text-gray-400">|</span>
-                <li className="flex items-center px-4"><Cart/></li>
+                <li className="flex items-center px-4"><Cart /></li>
             </ul>
         </header>
     );
