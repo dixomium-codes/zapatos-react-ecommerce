@@ -5,7 +5,7 @@ import TopBar from "./Header/TopBar";
 export default function Header() {
     return (
         <>
-            <header className="shadow-md">
+            <header className="shadow-md ">
                 <TopBar />
                 <MiddleBar />
                 <Categories />

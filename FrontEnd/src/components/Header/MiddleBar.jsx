@@ -1,4 +1,4 @@
-import Logo from "../../assets/logo";
+import Logo from "../../assets/images/logo";
 import Search from "../../assets/icons/Search";
 import Phone from "../../assets/icons/Phone";
 import MailBox from "../../assets/icons/MailBox";
