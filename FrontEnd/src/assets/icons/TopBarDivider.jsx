@@ -1,0 +1,10 @@
+import React from 'react'
+
+export default function TopBarDivider() {
+    return (
+        <div><svg width="1" height="24" viewBox="0 0 1 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0.5C0 0.223857 0.223858 0 0.5 0C0.776142 0 1 0.223858 1 0.5V23.5C1 23.7761 0.776142 24 0.5 24C0.223858 24 0 23.7761 0 23.5V0.5Z" fill="#E7E7E7" />
+        </svg>
+        </div>
+    )
+}

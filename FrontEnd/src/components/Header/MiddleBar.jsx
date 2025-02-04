@@ -7,12 +7,13 @@ import DownArrow from "../../assets/icons/Downarrow";
 import Account from "../../assets/icons/Account";
 import Wishlist from "../../assets/icons/WishList";
 import Cart from "../../assets/icons/Cart";
+import MiddleBarDividers from "../../assets/icons/MiddleBarDividers";
 
 export default function MiddleBar() {
     return (
-        <header className="flex justify-between items-center py-3 px-6 bg-white ">
+        <header className="hidden lg:flex  justify-between items-center py-3 px-6 bg-white gap-3">
             <div className="flex items-center gap-6 w-1/2">
-                <Logo />
+                <Logo foot='#e2e2e2'/>
                 {/* Search Bar */}
                 <div className="flex items-center relative flex-grow max-w-md">
                     <input
@@ -28,15 +29,15 @@ export default function MiddleBar() {
             {/* Navigation List */}
             <ul className="flex items-center text-gray-700 text-sm font-medium">
                 <li className="flex items-center gap-2 px-4 whitespace-nowrap"><Phone /><span>(804) 6623-9999</span></li>
-                <span className="text-gray-400">|</span>
+                <MiddleBarDividers/>
                 <li className="flex items-center gap-2 px-4"><MailBox /><span>supportoursmallbusiness@g.com</span></li>
-                <span className="text-gray-400">|</span>
+                <MiddleBarDividers/>
                 <li className="flex items-center gap-2 px-4"><Info /><span>Info</span><DownArrow /></li>
-                <span className="text-gray-400 ">|</span>
+                <MiddleBarDividers/>
                 <li className="flex items-center gap-2 px-4"><Account /><DownArrow /></li>
-                <span className="text-gray-400">|</span>
+                <MiddleBarDividers/>
                 <li className="flex items-center px-4"><Wishlist /></li>
-                <span className="text-gray-400">|</span>
+                <MiddleBarDividers/>
                 <li className="flex items-center px-4"><Cart /></li>
             </ul>
         </header>

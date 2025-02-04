@@ -1,10 +1,15 @@
 import Account from '../../assets/icons/Account';
+import AccountOutline from '../../assets/icons/AccountOutline';
 import Cart from '../../assets/icons/Cart';
+import CartOutline from '../../assets/icons/CartOutline';
 import Phone from '../../assets/icons/Phone';
+import PhoneOutline from '../../assets/icons/PhoneOutline';
+import TopBarDivider from '../../assets/icons/TopBarDivider';
 import TruckFastIcon from '../../assets/icons/TruckFast'
 import Wishlist from '../../assets/icons/WishList';
+import WishListOutline from '../../assets/icons/WishListOutline';
 import Humburger from '../../assets/images/Humburger';
-import Zapatos from '../../assets/images/Zapatos';
+import Logo from '../../assets/images/logo'
 
 function TopBar() {
 
@@ -12,7 +17,7 @@ function TopBar() {
     return (
         <>
             <div className="bg-black ">
-                <div className='flex items-center justify-center p-1 space-x-1.5  '>
+                <div className='hidden lg:flex items-center justify-center p-1 space-x-1.5  '>
                     <div>
                         < TruckFastIcon />
                     </div>
@@ -23,7 +28,21 @@ function TopBar() {
                 </div>
 
 
-           
+                <div className='lg:hidden flex items-center justify-between px-8 '>
+                    <Humburger color="white" />
+
+                    <div className=''>
+                        <Logo color='white' foot='black' />
+                    </div>
+
+                    <PhoneOutline />
+                    <TopBarDivider />
+                    <AccountOutline />
+                    <TopBarDivider />
+                    <WishListOutline />
+                    <TopBarDivider />
+                    <CartOutline />
+                </div>
 
             </div>
         </>
