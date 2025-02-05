@@ -3,7 +3,7 @@ import React from 'react'
 export default function HeroTable() {
     return (
         <div className='border'>
-            <svg width="450" height="48" viewBox="0 0 450 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="" height="auto" viewBox="0 0 450 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M27.9998 26H28.9998C30.0998 26 30.9998 25.1 30.9998 24V14H21.9998C20.4998 14 19.1898 14.83 18.5098 16.05" stroke="#010101" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M18 29C18 30.66 19.34 32 21 32H22C22 30.9 22.9 30 24 30C25.1 30 26 30.9 26 32H30C30 30.9 30.9 30 32 30C33.1 30 34 30.9 34 32H35C36.66 32 38 30.66 38 29V26H35C34.45 26 34 25.55 34 25V22C34 21.45 34.45 21 35 21H36.29L34.58 18.01C34.22 17.39 33.56 17 32.84 17H31V24C31 25.1 30.1 26 29 26H28" stroke="#010101" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M24 34C25.1046 34 26 33.1046 26 32C26 30.8954 25.1046 30 24 30C22.8954 30 22 30.8954 22 32C22 33.1046 22.8954 34 24 34Z" stroke="#010101" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />

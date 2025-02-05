@@ -4,8 +4,9 @@ import TruckFastIcon from '../../assets/icons/TruckFast'
 export default function Categories() {
     return (
         <>
-            <div className='hidden lg:block'><ul className='bg-gray-100 flex items-center justify-center gap-[4vw] py-4 '>
-                <li className='flex items-center'><span className="font-medium">MEN</span><DownArrow /></li>
+            <div className='hidden lg:block '>
+                <ul className='bg-white flex items-center justify-center gap-[4vw] py-4 '>
+                <li className='flex items-center'><span className="font-medium ">MEN</span><DownArrow /></li>
                 <li className='flex items-center'><span className="font-medium">KIDS</span><DownArrow /></li>
                 <li className='flex items-center'><span className="font-medium">WOMEN</span><DownArrow /></li>
                 <li className='flex items-center'><span className="font-medium">SPORTS</span><DownArrow /></li>

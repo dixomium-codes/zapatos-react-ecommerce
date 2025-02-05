@@ -16,7 +16,7 @@ function TopBar() {
 
     return (
         <>
-            <div className="bg-black ">
+            <div className="bg-black">
                 <div className='hidden lg:flex items-center justify-center p-1 space-x-1.5  '>
                     <div>
                         < TruckFastIcon />
@@ -31,7 +31,7 @@ function TopBar() {
                 <div className='lg:hidden flex items-center justify-between px-8 '>
                     <Humburger color="white" />
 
-                    <div className=''>
+                    <div className='w-[20vw]'>
                         <Logo color='white' foot='black' />
                     </div>
 
