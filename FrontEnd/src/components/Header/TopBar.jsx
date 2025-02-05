@@ -37,8 +37,16 @@ function TopBar() {
 
                     <PhoneOutline />
                     <TopBarDivider />
-                    <AccountOutline />
+                    <div className='hidden md:flex'>
+                    <AccountOutline  />
+                    
+                    </div>
+                    <div className='hidden md:flex'>
                     <TopBarDivider />
+                    </div>
+                   
+                    
+                   
                     <WishListOutline />
                     <TopBarDivider />
                     <CartOutline />
