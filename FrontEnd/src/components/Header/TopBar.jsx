@@ -16,7 +16,7 @@ function TopBar() {
 
     return (
         <>
-            <div className="bg-black">
+            <div className="bg-black py-2 md:py-0">
                 <div className='hidden lg:flex items-center justify-center p-1 space-x-1.5  '>
                     <div>
                         < TruckFastIcon />

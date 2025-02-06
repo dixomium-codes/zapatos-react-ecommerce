@@ -15,7 +15,7 @@ export default function Categories() {
             </ul></div>
 
             <div className=''>
-                <div className="lg:hidden flex items-center relative flex-grow  my-4 mx-8 ">
+                <div className="lg:hidden flex items-center relative flex-grow  py-2  mx-8 ">
                     <input
                         className="border border-black-300  p-2 w-full pl-4 pr-10 focus:outline-none focus:ring-2 focus:ring-black-500"
                         placeholder="Search for products"
@@ -27,13 +27,13 @@ export default function Categories() {
 
                 </div>
 
-                <div className=' items-center justify-center p-1 space-x-1.5 flex bg-gray-100 shadow-md lg:hidden'>
+                <div className='hidden items-center justify-center p-1 space-x-1.5 md:flex bg-gray-100 shadow-md lg:hidden'>
                     <div>
                         < TruckFastIcon color='black' />
                     </div>
 
                     <div>
-                        <h1 className=" text-black text-[14px font-normal ">Spend $150 or more and get FREE SHIPPING on your order!</h1>
+                        <h1 className=" text-black text-[14px font-normal ">Spend $150 or more and get <u>FREE SHIPPING</u> on your order!</h1>
                     </div>
                 </div>
             </div>
