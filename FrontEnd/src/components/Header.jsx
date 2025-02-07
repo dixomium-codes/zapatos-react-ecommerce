@@ -1,4 +1,4 @@
-import Categories from "./Header/Categories";
+import Categories from "./Header/HeaderCategories";
 import MiddleBar from "./Header/MiddleBar";
 import TopBar from "./Header/TopBar";
 
