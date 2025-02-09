@@ -1,5 +1,6 @@
 import Cartegories from "../components/Cartegories";
 import Header from "../components/Header";
+import HappeningNow from "../components/HappeningNow";
 import HeroBanner from "../components/HeroBanner";
 
 export default function Home() {
@@ -7,9 +8,9 @@ export default function Home() {
         <>
 
             <Header />
-           
             <HeroBanner />
-            <Cartegories/>
+            <Cartegories />
+            <HappeningNow />
 
         </>
 

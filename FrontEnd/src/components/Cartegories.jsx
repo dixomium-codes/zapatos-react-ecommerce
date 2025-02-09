@@ -5,6 +5,8 @@ import card3 from '../assets/images/CARD3.png'
 import card4 from '../assets/images/CARD4.png'
 import card5 from '../assets/images/CARD5.png'
 import card6 from '../assets/images/CARD6.png'
+import RightPointerArrow from '../assets/icons/RightPointerArrow'
+import CartegoryPointerArrow from '../assets/icons/CartegoryPointerArrow'
 
 
 export default function Cartegories() {
@@ -19,23 +21,60 @@ export default function Cartegories() {
 
             <div className='grid grid-cols-3 grid-rows-2 gap-4 mx-4'>
                 <div className='relative'><img src={catgpic1} alt="" srcset="" />
-                    <button className='bg-white px-2 py-1 absolute bottom-3 left-4 '>Men</button>
+                    <div className='bg-white px-2 py-1 absolute bottom-3 left-4 flex items-center gap-2  shadow-sm'>
+                        <button className='font-medium text-lg'>MEN</button>
+
+                        <CartegoryPointerArrow />
+
+
+                    </div>
                 </div>
                 <div className='relative'> <img src={card2} alt="" srcset="" />
-                    <button className='bg-white px-2 py-1 absolute bottom-3 left-4 '>Men</button>
+                    <div className='bg-white px-2 py-1 absolute bottom-3 left-4 flex items-center gap-2  shadow-sm'>
+                        <button className='font-medium text-lg'>KIDS</button>
+
+                        <CartegoryPointerArrow />
+
+
+                    </div>
                 </div>
                 <div className='relative'> <img src={card3} alt="" srcset="" />
-                    <button className='bg-white px-2 py-1 absolute bottom-3 left-4 '>Men</button>
-                </div>
+                    <div className='bg-white px-2 py-1 absolute bottom-3 left-4 flex items-center gap-2  shadow-sm'>
+                        <button className='font-medium text-lg'>WOMEN</button>
 
-                <div className='relative'><img src={card4} alt="" srcset="" />
-                    <button className='bg-white px-2 py-1 absolute bottom-3 left-4 '>Men</button>
+                        <CartegoryPointerArrow />
+
+
+                    </div>
                 </div>
-                <div className='relative'><img src={card5} alt="" srcset="" />
-                    <button className='bg-white px-2 py-1 absolute bottom-3 left-4 '>Men</button>
+          
+                <div className='relative'><img src={card4} alt="" srcset="" />
+                    <div className='bg-white px-2 py-1 absolute bottom-3 left-4 flex items-center gap-2  shadow-sm'>
+                        <button className='font-medium text-lg'>SPORTS</button>
+
+                        <CartegoryPointerArrow />
+
+
+                    </div>
+                </div>
+                <div className='relative '><img src={card5} alt="" srcset="" />
+                    <div className='bg-white px-2 py-1 absolute bottom-3 left-4 flex items-center gap-2  shadow-sm'>
+                        <button className='font-medium text-lg'>BRANDS</button>
+
+                        <CartegoryPointerArrow />
+
+
+                    </div>
+
                 </div>
                 <div className='relative'><img src={card6} alt="" srcset="" />
-                    <button className='bg-white px-2 py-1 absolute bottom-3 left-4 '>Men</button>
+                    <div className='bg-white px-2 py-1 absolute bottom-3 left-4 flex items-center gap-2  shadow-sm'>
+                        <button className='font-medium text-lg'>SANDALS</button>
+
+                        <CartegoryPointerArrow />
+
+
+                    </div>
                 </div>
 
             </div>
