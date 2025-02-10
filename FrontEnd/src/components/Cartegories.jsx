@@ -1,12 +1,12 @@
 import React from 'react'
-import catgpic1 from '../assets/images/CARD.png'
-import card2 from '../assets/images/CARD2.png'
-import card3 from '../assets/images/CARD3.png'
-import card4 from '../assets/images/CARD4.png'
-import card5 from '../assets/images/CARD5.png'
-import card6 from '../assets/images/CARD6.png'
-import RightPointerArrow from '../assets/icons/RightPointerArrow'
-import CartegoryPointerArrow from '../assets/icons/CartegoryPointerArrow'
+import catgpic1 from '../../public/images/CARD.png'
+import card2 from '../../public/images/CARD2.png'
+import card3 from '../../public/images/CARD3.png'
+import card4 from '../../public/images/CARD4.png'
+import card5 from '../../public/images/CARD5.png'
+import card6 from '../../public/images/CARD6.png'
+import RightPointerArrow from '../../public/icons/RightPointerArrow'
+import CartegoryPointerArrow from '../../public/icons/CartegoryPointerArrow'
 
 
 export default function Cartegories() {
@@ -47,7 +47,7 @@ export default function Cartegories() {
 
                     </div>
                 </div>
-          
+
                 <div className='relative'><img src={card4} alt="" srcset="" />
                     <div className='bg-white px-2 py-1 absolute bottom-3 left-4 flex items-center gap-2  shadow-sm'>
                         <button className='font-medium text-lg'>SPORTS</button>

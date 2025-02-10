@@ -1,16 +1,16 @@
 import React from 'react'
 
-import CartegoryPointerArrow from '../assets/icons/CartegoryPointerArrow'
-import Brook1 from '../assets/images/brook-ghost-15.png'
-import Brook2 from '../assets/images/brook-ghost-15(2).png'
-import Brook3 from '../assets/images/brook-ghost-15(3).png'
-import Brook4 from '../assets/images/brook-ghost-15(4).png'
-import AddToWish from '../assets/icons/AddToWish'
-import FullStar from '../assets/icons/FullStar'
-import HalfStar from '../assets/icons/HalfStar'
-import Avatar from '../assets/images/Avatar.png'
-import ActiveSlideDot from '../assets/icons/ActiveSlideDot'
-import InnactiveSlideDot from '../assets/icons/InnactiveSlideDot'
+import CartegoryPointerArrow from '../../public/icons/CartegoryPointerArrow'
+import Brook1 from '../../public/images/brook-ghost-15.png'
+import Brook2 from '../../public/images/brook-ghost-15(2).png'
+import Brook3 from '../../public/images/brook-ghost-15(3).png'
+import Brook4 from '../../public/images/brook-ghost-15(4).png'
+import AddToWish from '../../public/icons/AddToWish'
+import FullStar from '../../public/icons/FullStar'
+import HalfStar from '../../public/icons/HalfStar'
+import Avatar from '../../public/images/Avatar.png'
+import ActiveSlideDot from '../../public/icons/ActiveSlideDot'
+import InnactiveSlideDot from '../../public/icons/InnactiveSlideDot'
 
 export default function HappeningNow() {
     return (
@@ -221,9 +221,9 @@ export default function HappeningNow() {
             </div>
             <div className='flex items-center gap-2 justify-center mt-20'>
                 <ActiveSlideDot />
-                <InnactiveSlideDot/>
-                <InnactiveSlideDot/>
-                <InnactiveSlideDot/>
+                <InnactiveSlideDot />
+                <InnactiveSlideDot />
+                <InnactiveSlideDot />
             </div>
         </>
     )

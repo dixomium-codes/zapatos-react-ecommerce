@@ -1,17 +1,17 @@
-import DownArrow from '../../assets/icons/Downarrow'
-import Search from '../../assets/icons/Search'
-import TruckFastIcon from '../../assets/icons/TruckFast'
+
+
 export default function HeaderCategories() {
     return (
         <>
             <div className='hidden lg:block '>
                 <ul className='bg-white flex items-center justify-center gap-[4vw] py-4 '>
-                    <li className='flex items-center'><span className="font-medium ">MEN</span><DownArrow /></li>
-                    <li className='flex items-center'><span className="font-medium">KIDS</span><DownArrow /></li>
-                    <li className='flex items-center'><span className="font-medium">WOMEN</span><DownArrow /></li>
-                    <li className='flex items-center'><span className="font-medium">SPORTS</span><DownArrow /></li>
-                    <li className='flex items-center'><span className="font-medium">BRANDS</span><DownArrow /></li>
-                    <li className='flex items-center'><span className="font-medium">SANDALS</span><DownArrow /></li>
+                    <li className='flex items-center'><span className="font-medium ">MEN</span><img src="/icons/DownArrow.svg" alt="Logo" />
+                    </li>
+                    <li className='flex items-center'><span className="font-medium">KIDS</span><img src="/icons/Downarrow.svg" alt="Logo" /></li>
+                    <li className='flex items-center'><span className="font-medium">WOMEN</span><img src="/icons/Downarrow.svg" alt="Logo" /></li>
+                    <li className='flex items-center'><span className="font-medium">SPORTS</span><img src="/icons/Downarrow.svg" alt="Logo" /></li>
+                    <li className='flex items-center'><span className="font-medium">BRANDS</span><img src="/icons/Downarrow.svg" alt="Logo" /></li>
+                    <li className='flex items-center'><span className="font-medium">SANDALS</span><img src="/icons/Downarrow.svg" alt="Logo" /></li>
                 </ul></div>
 
             <div className=''>

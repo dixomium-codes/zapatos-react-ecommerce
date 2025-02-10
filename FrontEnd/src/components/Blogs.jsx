@@ -1,12 +1,12 @@
 import React from 'react'
-import CartegoryPointerArrow from '../assets/icons/CartegoryPointerArrow'
-import BlogIm1 from '../assets/images/BlogIm1.png'
-import BlogIm2 from '../assets/images/BlogIm2.png'
-import BlogIm3 from '../assets/images/BlogIm3.png'
-import BlogIm4 from '../assets/images/BlogIm4.png'
-import ReadMoreArrow from '../assets/icons/ReadMoreArrow'
-import ActiveSlideDot from '../assets/icons/ActiveSlideDot'
-import InnactiveSlideDot from '../assets/icons/InnactiveSlideDot'
+import CartegoryPointerArrow from '../../public/icons/CartegoryPointerArrow'
+import BlogIm1 from '../../public/images/BlogIm1.png'
+import BlogIm2 from '../../public/images/BlogIm2.png'
+import BlogIm3 from '../../public/images/BlogIm3.png'
+import BlogIm4 from '../../public/images/BlogIm4.png'
+import ReadMoreArrow from '../../public/icons/ReadMoreArrow'
+import ActiveSlideDot from '../../public/icons/ActiveSlideDot'
+import InnactiveSlideDot from '../../public/icons/InnactiveSlideDot'
 
 export default function Blogs() {
     return (

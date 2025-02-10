@@ -1,15 +1,15 @@
-import Account from '../../assets/icons/Account';
-import AccountOutline from '../../assets/icons/AccountOutline';
-import Cart from '../../assets/icons/Cart';
-import CartOutline from '../../assets/icons/CartOutline';
-import Phone from '../../assets/icons/Phone';
-import PhoneOutline from '../../assets/icons/PhoneOutline';
-import TopBarDivider from '../../assets/icons/TopBarDivider';
-import TruckFastIcon from '../../assets/icons/TruckFast'
-import Wishlist from '../../assets/icons/WishList';
-import WishListOutline from '../../assets/icons/WishListOutline';
-import Humburger from '../../assets/images/Humburger';
-import Logo from '../../assets/images/logo'
+import Account from '../../../public/icons/Account';
+import AccountOutline from '../../../public/icons/AccountOutline';
+import Cart from '../../../public/icons/Cart';
+import CartOutline from '../../../public/icons/CartOutline';
+import Phone from '../../../public/icons/Phone';
+import PhoneOutline from '../../../public/icons/PhoneOutline';
+import TopBarDivider from '../../../public/icons/TopBarDivider';
+import TruckFastIcon from '../../../public/icons/TruckFast'
+import Wishlist from '../../../public/icons/WishList';
+import WishListOutline from '../../../public/icons/WishListOutline';
+import Humburger from '../../../public/images/Humburger';
+import Logo from '../../../public/images/logo'
 
 function TopBar() {
 

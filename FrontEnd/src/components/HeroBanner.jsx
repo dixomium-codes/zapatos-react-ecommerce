@@ -1,12 +1,12 @@
 
-import Zapatos from "../assets/images/Zapatos";
-import MyImage from "../assets/images/image 29.png";
-import LeftArrow from "../assets/icons/LeftArrow"
+import Zapatos from "../../public/images/Zapatos";
+import MyImage from "../../public/images/image 29.png";
+import LeftArrow from "../../public/icons/LeftArrow"
 
-import RightArrow from "../assets/icons/RightArrow";
-import HeroTable from "../assets/images/heroTable";
-import TruckFastIcon from "../assets/icons/TruckFast";
-import RightPointerArrow from "../assets/icons/RightPointerArrow";
+import RightArrow from "../../public/icons/RightArrow";
+import HeroTable from "../../public/images/heroTable";
+import TruckFastIcon from "../../public/icons/TruckFast";
+import RightPointerArrow from "../../public/icons/RightPointerArrow";
 
 
 export default function () {
@@ -29,11 +29,11 @@ export default function () {
                         <div className="w-[80vw] md:w-[90vw] relative lg:bottom-20 md:bottom-[15vh] bottom-[20vh]">
                             <Zapatos />
                         </div>
-                        
+
 
                         <img src={MyImage} alt="Hero Image" className="absolute md:w-[60vw] lg:w-[35vw] h-auto md:left-40 lg:left-auto w-[60vw] top-[-5vh] md:top-0" />
                     </div>
-                  
+
 
                     <div className="absolute flex items-center gap-[80vw] md:gap-[87vw] md:top-[55vh]">
                         <div className="lg:w-[3vw] md:w-[4vw] w-[7vw] ">
@@ -67,7 +67,7 @@ export default function () {
                             <RightPointerArrow />
                         </div>
                     </button>
-                
+
 
                 </div>
 

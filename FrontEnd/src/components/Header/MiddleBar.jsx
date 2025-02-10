@@ -1,13 +1,13 @@
-import Logo from "../../assets/images/logo";
-import Search from "../../assets/icons/Search";
-import Phone from "../../assets/icons/Phone";
-import MailBox from "../../assets/icons/MailBox";
-import Info from "../../assets/icons/Info";
-import DownArrow from "../../assets/icons/Downarrow";
-import Account from "../../assets/icons/Account";
-import Wishlist from "../../assets/icons/WishList";
-import Cart from "../../assets/icons/Cart";
-import MiddleBarDividers from "../../assets/icons/MiddleBarDividers";
+import Logo from "../../../public/images/logo";
+import Search from "../../../public/icons/Search";
+import Phone from "../../../public/icons/Phone";
+import MailBox from "../../../public/icons/MailBox";
+import Info from "../../../public/icons/Info";
+import DownArrow from "../../../public/icons/Downarrow";
+import Account from "../../../public/icons/Account";
+import Wishlist from "../../../public/icons/WishList";
+import Cart from "../../../public/icons/Cart";
+import MiddleBarDividers from "../../../public/icons/MiddleBarDividers";
 
 export default function MiddleBar() {
     return (
